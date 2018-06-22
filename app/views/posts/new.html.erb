@@ -1,0 +1,9 @@
+<h1>Posts#new</h1>
+
+<%= form_for @post do |form| %>
+
+  <%= form.date_field :date %>
+  <%= form.text_area :rationale %>
+  <%= form.submit 'Save' %>
+
+<% end %>
