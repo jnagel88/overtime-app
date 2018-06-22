@@ -3,7 +3,7 @@
 Key requirements: company needs documentation that salaried employees did or did not get overtime eash week
 
 - Post -> date:date rationale:text
-- User -> Devise
+X User -> Devise
 - Admin -> STI
 
 ## Features:
