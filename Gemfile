@@ -17,6 +17,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.7', '>= 3.7.2'
   gem 'capybara', '~> 3.2', '>= 3.2.1'
   gem 'database_cleaner', '~> 1.7'
+  gem'pg'
+  gem 'simplecov', '~> 0.16.1'
 end
 
 group :development do
