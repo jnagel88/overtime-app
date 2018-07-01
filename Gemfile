@@ -19,6 +19,7 @@ group :development, :test do
   gem 'database_cleaner', '~> 1.7'
   gem'pg'
   gem 'simplecov', '~> 0.16.1'
+  gem 'pry'
 end
 
 group :development do

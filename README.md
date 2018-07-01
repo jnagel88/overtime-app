@@ -18,3 +18,4 @@ Key requirements: company needs documentation that salaried employees did or did
 
 ## Refactor TODOS:
 - Refactor user association integration test in feature/post_spec
+- add fullname for users
