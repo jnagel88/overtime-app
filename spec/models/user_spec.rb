@@ -1,11 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  describe "creation" do
   	before do
   		@user = User.create(email:"test@test.com", password:"asdasd", password_confirmation: "asdasd", first_name:'Jon',last_name:"Snow")
   	end
-
+  describe "creation" do
   	it "can be created" do
   		expect(@user).to be_valid
   	end
@@ -16,4 +15,11 @@ RSpec.describe User, type: :model do
   		expect(@user).to_not be_valid
   	end
   end
+
+  describe 'custom name method' do
+    it "combines user's first_name & last_name" do
+      expect(@user.full_name).to eq("SNOW, JON")
+    end
+  end
+
 end

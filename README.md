@@ -14,8 +14,7 @@ Key requirements: company needs documentation that salaried employees did or did
 - needs to be documented if employee did not log overtime
 
 ## UI:
-- Bootstrap -> formatting
+- x Bootstrap -> formatting
 
 ## Refactor TODOS:
-- Refactor user association integration test in feature/post_spec
-- add fullname for users
+- x add fullname for users
